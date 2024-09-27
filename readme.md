@@ -28,7 +28,7 @@ It has animations between characters first page and character main page
 # Calculator
 
 All functionalities are working, it's a simple calculator, for simple calculations
-g
+
 ![calculator_image1.png](images/calculator1.png)
 ![calculator_image2](images/calculator2.png)
 
