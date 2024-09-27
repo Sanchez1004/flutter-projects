@@ -16,13 +16,19 @@ These are the projects that I made to learn flutter framework and dart.
 ![pokeapi_image5](images/pokeapi5.png)
 
 # OnePiece Characters List
-There is wrong information, this is just 
+
+There is wrong information, this is just for educational reasons
+
 ![onepiece_image1](images/onepiece1.png)
+
 It has animations between characters first page and character main page
+
 ![onepiece_image2](images/onepiece2.png)
 
 # Calculator
+
 All functionalities are working, it's a simple calculator, for simple calculations
+g
 ![calculator_image1.png](images/calculator1.png)
 ![calculator_image2](images/calculator2.png)
 
