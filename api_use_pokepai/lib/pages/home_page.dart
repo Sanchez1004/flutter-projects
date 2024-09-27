@@ -66,13 +66,13 @@ class _HomePageState extends State<HomePage> {
         child: Stack(
           children: [
             Positioned(
-              top: -80,
-              right: -100,
+              top: screenHeight * -.08,
+              right: screenHeight * -.1,
               child: Image.asset("assets/pokeball.png", width: 220, fit: BoxFit.fitWidth,),
             ),
             Positioned(
-              top: 100,
-              left: 20,
+              top: screenHeight * .11,
+              left: screenHeight * .021,
               child: Text(
                 "Pokedex",
                 style: TextStyle(
@@ -116,8 +116,8 @@ class _HomePageState extends State<HomePage> {
                                         child: Stack(
                                           children: [
                                             Positioned(
-                                              top: 93,
-                                              left: 15,
+                                              top: screenHeight * .105,
+                                              left: screenHeight * .018,
                                               child: Text(pokedex[index]["num"], style: TextStyle(
                                                 color: const Color.fromARGB(255, 128, 64, 48),
                                                 fontWeight: FontWeight.bold,
@@ -126,7 +126,7 @@ class _HomePageState extends State<HomePage> {
                                             ),
                                             Positioned(
                                               top: 110,
-                                              left: 15,
+                                              left: screenHeight * .018,
                                               child: Text(pokedex[index]["name"], style: TextStyle(
                                                 color: Colors.white54,
                                                 fontWeight: FontWeight.bold,
@@ -134,12 +134,12 @@ class _HomePageState extends State<HomePage> {
                                               ),),
                                             ),
                                             Positioned(
-                                              top: 140,
-                                              left: 15,
+                                              top: screenHeight * .16,
+                                              left: screenHeight * .012,
                                               width: screenWidth * .5,
                                               height: screenHeight * .5,
                                               child: Wrap(
-                                                spacing: screenHeight * .005,
+                                                spacing: screenHeight * .007,
                                                 children: [
                                                   for (var type in pokedex[index]["type"])
                                                     Container(
@@ -174,7 +174,7 @@ class _HomePageState extends State<HomePage> {
                                         alignment: Alignment.topCenter,
                                         child: CachedNetworkImage(
                                           imageUrl: pokedex[index]["img"],
-                                          height: 180,
+                                          height: screenHeight * .2,
                                           fit: BoxFit.fitHeight,
                                         )
                                       )
@@ -199,7 +199,8 @@ class _HomePageState extends State<HomePage> {
   }
 
   void fetchPokeApi() {
-    var url = Uri.https("raw.githubusercontent.com", "/Biuni/PokemonGO-Pokedex/master/pokedex.json");
+    var url = Uri.https("raw.githubusercontent.com",
+        "/Biuni/PokemonGO-Pokedex/master/pokedex.json");
 
     http.get(url).then((value) {
       if (value.statusCode == 200) {

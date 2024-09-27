@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/animations/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/animations/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/animations/build" />
+      <excludeFolder url="file://$MODULE_DIR$/api_use_pokepai/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/api_use_pokepai/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/api_use_pokepai/build" />
+      <excludeFolder url="file://$MODULE_DIR$/calculator/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/calculator/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/calculator/build" />
+      <excludeFolder url="file://$MODULE_DIR$/first_steps/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/first_steps/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/first_steps/build" />
+      <excludeFolder url="file://$MODULE_DIR$/onepiece_characters_list/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/onepiece_characters_list/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/onepiece_characters_list/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
